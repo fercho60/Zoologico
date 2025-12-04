@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoologico_Modelos", "HdP_Ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoologico_Fernando", "Zoologico_api\Zoologico_Fernando.csproj", "{CA7841CB-E3DB-46E4-A020-FA5B56788F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoApiTest", "ProyectoApiTest\ProyectoApiTest.csproj", "{47810911-C816-4094-A77D-597E0735D68D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{CA7841CB-E3DB-46E4-A020-FA5B56788F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7841CB-E3DB-46E4-A020-FA5B56788F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7841CB-E3DB-46E4-A020-FA5B56788F64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{47810911-C816-4094-A77D-597E0735D68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47810911-C816-4094-A77D-597E0735D68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47810911-C816-4094-A77D-597E0735D68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47810911-C816-4094-A77D-597E0735D68D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
