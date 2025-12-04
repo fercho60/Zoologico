@@ -11,13 +11,7 @@ namespace Zoologico_api
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<Zoologico_apiContext>(options =>
-                //options.UseSqlServer(builder.Configuration.GetConnectionString("ZoologicoAPIContext.sqlserver") ?? throw new InvalidOperationException("Connection string 'ZoologicoAPIContext' not found."))
                 options.UseNpgsql(builder.Configuration.GetConnectionString("ZoologicoAPIContext.postgresql") ?? throw new InvalidOperationException("Connection string 'ZoologicoAPIContext' not found."))
-                //options.UseOracle(builder.Configuration.GetConnectionString("ZoologicoAPIContext.oracle") ?? throw new InvalidOperationException("Connection string 'ZoologicoAPIContext' not found."))
-                //options.UseMySql(
-                //    builder.Configuration.GetConnectionString("ZoologicoAPIContext.mariadb") ?? throw new InvalidOperationException("Connection string 'ZoologicoAPIContext' not found."),
-                //    Microsoft.EntityFrameworkCore.ServerVersion.Parse("12.0.2-MariaDB")
-                //    )
                 );
             // Add services to the container.
 

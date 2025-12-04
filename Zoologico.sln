@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoologico_Modelos", "HdP_Ejercicio1\Zoologico_Modelos.csproj", "{98BE8E1E-2BB4-48CA-99E6-20ABD5F59162}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoologico_api", "Zoologico_api\Zoologico_api.csproj", "{CA7841CB-E3DB-46E4-A020-FA5B56788F64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoologico_Fernando", "Zoologico_api\Zoologico_Fernando.csproj", "{CA7841CB-E3DB-46E4-A020-FA5B56788F64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoApiTest", "ProyectoApiTest\ProyectoApiTest.csproj", "{47810911-C816-4094-A77D-597E0735D68D}"
 EndProject

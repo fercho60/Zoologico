@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HdP_Ejercicio1\Zoologico_Modelos.csproj" />
-    <ProjectReference Include="..\Zoologico_api\Zoologico_api.csproj" />
+    <ProjectReference Include="..\Zoologico_api\Zoologico_Fernando.csproj" />
   </ItemGroup>
 
 </Project>
